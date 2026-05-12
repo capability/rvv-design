@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8" />
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+<meta name="googlebot" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ribble Valley View — Luxury Lodge Park in the Lancashire Countryside</title>
+<meta name="description" content="A peaceful luxury lodge park on a family-run Lancashire farm. Book a lodge break or own your own countryside retreat beneath the rolling hills of the Ribble Valley." />
+<meta property="og:title" content="Ribble Valley View" />
+<meta property="og:description" content="Luxury lodges. Stunning views. Unforgettable stays — or your own countryside retreat." />
+<meta property="og:type" content="website" />
+<link rel="canonical" href="index.html" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: {
+        serif: ['"Playfair Display"', 'serif'],
+        sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+      },
+      colors: {
+        forest: {50:'#EEF3EE',100:'#D8E2D9',200:'#B0C2B1',300:'#86A188',400:'#5E7D62',500:'#456A4B',600:'#2F4A3A',700:'#22382B',800:'#15291E',900:'#0E1F17',950:'#081310'},
+        sage: {300:'#B5C49F',400:'#8FA37E',500:'#6B7F5C',600:'#536546'},
+        cream: {50:'#FAF7F0',100:'#F4EDDC',200:'#E8DEC8',300:'#D9CBA9'},
+        brass: {300:'#E2BE85',400:'#D2A357',500:'#B8893E',600:'#A07A35',700:'#8A6628',800:'#6B4F1E'},
+        ink: {300:'#A39A8E',500:'#6B6258',700:'#3C342C',900:'#1F1B16'},
+        terracotta: {500:'#B0704A',600:'#8B5A3C'},
+      },
+      letterSpacing: { tightish: '-0.01em', wide2:'0.22em' },
+      boxShadow: {
+        soft: '0 30px 60px -30px rgba(20,30,20,.35)',
+        ring: '0 0 0 1px rgba(255,255,255,.08), 0 30px 60px -30px rgba(0,0,0,.45)',
+      }
+    }
+  }
+}
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: Inter, system-ui, sans-serif; color: #1F1B16; background:#FAF7F0; -webkit-font-smoothing:antialiased; }
+  .font-display { font-family:'Playfair Display', serif; }
+  .eyebrow { font-family: Inter,sans-serif; letter-spacing:.22em; text-transform:uppercase; font-size:.72rem; font-weight:600; }
+  .btn { display:inline-flex; align-items:center; gap:.55rem; padding:.95rem 1.5rem; border-radius:9999px; font-weight:500; font-size:.92rem; letter-spacing:.02em; transition:all .25s cubic-bezier(.2,.7,.2,1); cursor:pointer; white-space:nowrap; }
+  .btn-primary { background:#2F4A3A; color:#F4EDDC; }
+  .btn-primary:hover { background:#15291E; transform:translateY(-1px); }
+  .btn-gold { background:#B8893E; color:#FAF7F0; }
+  .btn-gold:hover { background:#8A6628; transform:translateY(-1px); }
+  .btn-ghost { border:1px solid rgba(15,30,20,.18); color:#1F1B16; background:transparent; }
+  .btn-ghost:hover { background:rgba(15,30,20,.06); }
+  .btn-ghost-light { border:1px solid rgba(244,237,220,.5); color:#F4EDDC; background:transparent; }
+  .btn-ghost-light:hover { background:rgba(244,237,220,.12); border-color:rgba(244,237,220,.85); }
+  .link-arrow { display:inline-flex; align-items:center; gap:.4rem; font-weight:500; color:#2F4A3A; border-bottom:1px solid rgba(47,74,58,.25); padding-bottom:2px; transition:all .25s ease; }
+  .link-arrow:hover { color:#8A6628; border-color:#8A6628; gap:.65rem; }
+  .nav-link { font-size:.88rem; color:#1F1B16; position:relative; padding:.5rem .25rem; transition:color .25s ease; }
+  .nav-link::after { content:""; position:absolute; left:.25rem; right:.25rem; bottom:-2px; height:1px; background:#B8893E; transform:scaleX(0); transform-origin:left; transition:transform .3s ease; }
+  .nav-link:hover { color:#2F4A3A; }
+  .nav-link:hover::after { transform:scaleX(1); }
+  .nav-link.is-active { color:#2F4A3A; }
+  .nav-link.is-active::after { transform:scaleX(1); }
+  .glass-nav { background:rgba(250,247,240,.78); backdrop-filter: blur(14px) saturate(140%); -webkit-backdrop-filter: blur(14px) saturate(140%); border:1px solid rgba(31,27,22,.08); }
+  .hero-vignette { background: radial-gradient(ellipse at center, rgba(8,19,16,0) 0%, rgba(8,19,16,.25) 60%, rgba(8,19,16,.7) 100%); }
+  .hero-gradient { background: linear-gradient(180deg, rgba(8,19,16,.15) 0%, rgba(8,19,16,.05) 35%, rgba(8,19,16,.85) 100%); }
+  .reveal { opacity:0; transform: translateY(24px); transition: opacity .8s ease, transform .8s cubic-bezier(.2,.7,.2,1); }
+  .reveal.in { opacity:1; transform:none; }
+  .grain::before {
+    content:""; position:absolute; inset:0; pointer-events:none; opacity:.06; mix-blend-mode:multiply;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='.7'/></svg>");
+  }
+  .card-hover { transition: transform .4s cubic-bezier(.2,.7,.2,1), box-shadow .4s ease; }
+  .card-hover:hover { transform: translateY(-6px); box-shadow: 0 30px 60px -30px rgba(20,30,20,.25); }
+  .img-zoom { overflow:hidden; }
+  .img-zoom img { transition: transform .9s cubic-bezier(.2,.7,.2,1); }
+  .img-zoom:hover img { transform: scale(1.06); }
+  .marquee { mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+  .marquee-track { animation: marquee 38s linear infinite; }
+  @keyframes marquee { from { transform: translateX(0) } to { transform: translateX(-50%) } }
+  .price-tag { font-feature-settings: "ss01","cv11","tnum"; }
+  details[open] summary .chev { transform: rotate(45deg); }
+  summary { list-style:none; cursor:pointer; }
+  summary::-webkit-details-marker { display:none; }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity:1 !important; transform:none !important; transition:none !important; }
+    .marquee-track { animation:none; }
+    .img-zoom img { transition:none; }
+  }
+  .badge-dot { width:6px; height:6px; border-radius:9999px; background:#B8893E; box-shadow:0 0 0 4px rgba(184,137,62,.18); display:inline-block; }
+  .ring-stat { border:1px solid rgba(31,27,22,.1); }
+  .text-balance { text-wrap: balance; }
+  ::selection { background:#B8893E; color:#FAF7F0; }
+</style>
+</head>
+<body class="overflow-x-hidden">
+
+<!-- TOP STRIP -->
+<div class="bg-forest-900 text-cream-100 text-[12px] tracking-wide">
+  <div class="max-w-7xl mx-auto px-6 py-2.5 flex items-center justify-between gap-4">
+    <div class="flex items-center gap-2.5">
+      <span class="badge-dot"></span>
+      <span class="hidden sm:inline">Now selling — Dinckley Brook View. Buy in 2025, get 12 months' site fees free <span class="text-brass-300">(£3,255 saving)</span>.</span>
+      <span class="sm:hidden">12 months' free site fees in 2025</span>
+    </div>
+    <div class="hidden md:flex items-center gap-5">
+      <a class="hover:text-brass-300 transition-colors" href="tel:08001814044">0800 181 4044</a>
+      <a class="hover:text-brass-300 transition-colors" href="mailto:hello@ribblevalleyview.com">hello@ribblevalleyview.com</a>
+    </div>
+  </div>
+</div>
+
+<!-- NAV -->
+<header id="nav" class="sticky top-0 z-50 transition-transform duration-300">
+  <div class="px-4 lg:px-6 pt-4">
+    <div class="glass-nav max-w-7xl mx-auto rounded-full pl-6 pr-3 py-2.5 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3 group">
+        <span class="relative w-9 h-9 rounded-full bg-forest-700 text-cream-100 flex items-center justify-center font-display text-lg">R</span>
+        <span class="hidden sm:block">
+          <span class="block font-display text-[17px] leading-none text-ink-900">Ribble Valley View</span>
+          <span class="block eyebrow text-ink-500 mt-1">Luxury Lodge Park</span>
+        </span>
+      </a>
+      <nav class="hidden lg:flex items-center gap-7">
+        <a class="nav-link is-active" href="index.html">Home</a>
+        <a class="nav-link" href="phase-2-1.html">Lodge Ownership</a>
+        <a class="nav-link" href="bookings.html">Book a Break</a>
+        <a class="nav-link" href="out-and-about.html">Out &amp; About</a>
+        <a class="nav-link" href="reviews.html">Reviews</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <a href="bookings.html" class="btn btn-primary hidden sm:inline-flex">Book Now
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+        </a>
+        <button id="navToggle" class="lg:hidden inline-flex items-center justify-center w-11 h-11 rounded-full text-ink-900 hover:bg-ink-900/5" aria-label="Menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div id="mobileNav" class="hidden lg:hidden mx-4 mt-2 rounded-3xl glass-nav p-3">
+    <a class="block px-4 py-3 nav-link is-active" href="index.html">Home</a>
+    <a class="block px-4 py-3 nav-link" href="phase-2-1.html">Lodge Ownership</a>
+    <a class="block px-4 py-3 nav-link" href="bookings.html">Book a Break</a>
+    <a class="block px-4 py-3 nav-link" href="out-and-about.html">Out &amp; About</a>
+    <a class="block px-4 py-3 nav-link" href="reviews.html">Reviews</a>
+    <a class="block px-4 py-3 nav-link" href="contact.html">Contact</a>
+    <a href="bookings.html" class="btn btn-primary w-full justify-center mt-2">Book Now</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="relative -mt-[88px] pt-[88px] min-h-[100svh] flex items-end">
+  <div class="absolute inset-0">
+    <img src="img/aerial.jpg"
+         alt="Luxury timber lodge nestled in the rolling Ribble Valley countryside at dusk"
+         class="w-full h-full object-cover" />
+    <div class="absolute inset-0 hero-gradient"></div>
+    <div class="absolute inset-0 hero-vignette"></div>
+  </div>
+  <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-10 w-full pb-20 lg:pb-28 pt-32">
+    <div class="max-w-3xl text-cream-100 reveal">
+      <div class="flex items-center gap-3 mb-6 text-brass-300">
+        <span class="h-px w-10 bg-brass-400"></span>
+        <span class="eyebrow text-brass-300">A family-run Lancashire retreat</span>
+      </div>
+      <h1 class="font-display text-balance text-[44px] sm:text-[64px] lg:text-[88px] leading-[0.95] tracking-tightish">
+        Escape to the heart of the<br/>
+        <em class="italic text-brass-300">Ribble&nbsp;Valley</em>.
+      </h1>
+      <p class="mt-7 text-lg lg:text-xl text-cream-100/85 max-w-xl leading-relaxed">
+        Luxury lodges. Stunning views. Unforgettable stays — or your very own countryside retreat, ready to step into.
+      </p>
+      <div class="mt-9 flex flex-wrap items-center gap-3">
+        <a href="bookings.html" class="btn btn-gold">Book a Lodge Break
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+        </a>
+        <a href="phase-2-1.html" class="btn btn-ghost-light">Discover Lodge Ownership</a>
+      </div>
+      <div class="mt-12 flex flex-wrap items-center gap-x-9 gap-y-4 text-cream-100/75 text-sm">
+        <div class="flex items-center gap-2">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v3"/><path d="M12 19v3"/><path d="m4.9 4.9 2.1 2.1"/><path d="m17 17 2.1 2.1"/><path d="M2 12h3"/><path d="M19 12h3"/><path d="m4.9 19.1 2.1-2.1"/><path d="m17 7 2.1-2.1"/><circle cx="12" cy="12" r="4"/></svg>
+          365-day holiday licence
+        </div>
+        <div class="flex items-center gap-2">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 6v6c0 5 3.5 8.5 8 10 4.5-1.5 8-5 8-10V6Z"/></svg>
+          50-year site licence
+        </div>
+        <div class="flex items-center gap-2">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="11" r="3"/><path d="M12 22s7-7.5 7-13a7 7 0 1 0-14 0c0 5.5 7 13 7 13Z"/></svg>
+          Old Langho, Lancashire
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#welcome" class="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 text-cream-100/75 hover:text-cream-50 flex flex-col items-center gap-2 text-xs tracking-[.25em] uppercase">
+    Scroll
+    <svg width="14" height="22" viewBox="0 0 14 22" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><rect x="1" y="1" width="12" height="20" rx="6"/><line x1="7" y1="6" x2="7" y2="10"/></svg>
+  </a>
+</section>
+
+<!-- TRUST STRIP -->
+<section class="bg-cream-100 border-y border-ink-900/5">
+  <div class="max-w-7xl mx-auto px-6 py-6 marquee overflow-hidden">
+    <div class="marquee-track flex gap-14 items-center text-ink-500 whitespace-nowrap font-display italic text-[20px] sm:text-[22px]">
+      <span>Hoseasons featured</span><span class="text-brass-500">✦</span>
+      <span>Forest of Bowland AONB</span><span class="text-brass-500">✦</span>
+      <span>Dog-friendly</span><span class="text-brass-500">✦</span>
+      <span>Family-run dairy farm</span><span class="text-brass-500">✦</span>
+      <span>365-day living</span><span class="text-brass-500">✦</span>
+      <span>50-year tenure</span><span class="text-brass-500">✦</span>
+      <span>Hoseasons featured</span><span class="text-brass-500">✦</span>
+      <span>Forest of Bowland AONB</span><span class="text-brass-500">✦</span>
+      <span>Dog-friendly</span><span class="text-brass-500">✦</span>
+      <span>Family-run dairy farm</span><span class="text-brass-500">✦</span>
+      <span>365-day living</span><span class="text-brass-500">✦</span>
+      <span>50-year tenure</span><span class="text-brass-500">✦</span>
+    </div>
+  </div>
+</section>
+
+<!-- WELCOME -->
+<section id="welcome" class="py-24 lg:py-32 relative grain">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
+    <div class="lg:col-span-5 reveal">
+      <div class="eyebrow text-brass-600 mb-5">Welcome</div>
+      <h2 class="font-display text-4xl sm:text-5xl lg:text-6xl leading-[1.02] text-balance text-ink-900">
+        A peaceful park,<br/><em class="italic text-forest-700">tucked&nbsp;between</em> the hills.
+      </h2>
+      <p class="mt-7 text-lg text-ink-700 leading-relaxed max-w-xl">
+        Welcome to Ribble Valley View — a luxury lodge park nestled on a family-run farm in the heart of the Lancashire countryside. Beneath the rolling fells of Bowland, our hand-picked lodges offer stylish comfort, space to unwind, and front-row views of nature at its finest.
+      </p>
+      <p class="mt-5 text-ink-500 leading-relaxed max-w-xl">
+        Whether you’re here for a romantic break, a family holiday, or a digital detox with the dog — you’ll find fresh air, freedom and a touch of something special waiting for you.
+      </p>
+      <div class="mt-9 flex flex-wrap gap-3">
+        <a class="btn btn-primary" href="bookings.html">See the Lodges</a>
+        <a class="btn btn-ghost" href="out-and-about.html">Explore the Valley</a>
+      </div>
+    </div>
+    <div class="lg:col-span-7 grid grid-cols-6 grid-rows-6 gap-3 sm:gap-4 h-[520px] sm:h-[620px] reveal">
+      <div class="col-span-4 row-span-4 rounded-3xl overflow-hidden img-zoom shadow-soft">
+        <img src="img/viaduct.jpg" alt="Rolling hills above the Ribble Valley" class="w-full h-full object-cover" />
+      </div>
+      <div class="col-span-2 row-span-3 rounded-3xl overflow-hidden img-zoom shadow-soft">
+        <img src="img/lodge-lounge.jpg" alt="Cosy lodge interior" class="w-full h-full object-cover" />
+      </div>
+      <div class="col-span-2 row-span-3 rounded-3xl overflow-hidden img-zoom shadow-soft">
+        <img src="img/park-1.jpg" alt="Dinckley Brook running through the valley" class="w-full h-full object-cover" />
+      </div>
+      <div class="col-span-4 row-span-2 rounded-3xl overflow-hidden img-zoom shadow-soft">
+        <img src="img/park-2.jpg" alt="Sheep grazing on the Lancashire farm" class="w-full h-full object-cover" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TWO PATHS -->
+<section class="bg-forest-900 text-cream-100 py-24 lg:py-32 relative overflow-hidden">
+  <div class="absolute inset-0 opacity-[.07] pointer-events-none">
+    <svg viewBox="0 0 600 600" class="w-full h-full"><defs><pattern id="p" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M30 8 C 18 22 18 38 30 52 C 42 38 42 22 30 8 Z" fill="none" stroke="#E2BE85" stroke-width=".7"/></pattern></defs><rect width="100%" height="100%" fill="url(#p)"/></svg>
+  </div>
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 relative">
+    <div class="text-center max-w-2xl mx-auto reveal">
+      <div class="eyebrow text-brass-300 mb-5">Two ways to stay</div>
+      <h2 class="font-display text-4xl sm:text-5xl lg:text-6xl leading-[1.05] text-balance">Visit for a week — or <em class="italic text-brass-300">stay&nbsp;for&nbsp;life</em>.</h2>
+      <p class="mt-6 text-cream-100/75 text-lg">Book one of our luxury lodges for a break, or take the next step and make your countryside escape your own.</p>
+    </div>
+    <div class="mt-16 grid lg:grid-cols-2 gap-6 lg:gap-8">
+      <article class="group relative rounded-3xl overflow-hidden bg-forest-800/60 border border-cream-100/10 card-hover reveal">
+        <div class="aspect-[16/10] img-zoom">
+          <img src="img/lodge-lounge.jpg" alt="Lodge interior with open-plan living" class="w-full h-full object-cover"/>
+        </div>
+        <div class="p-8 lg:p-10">
+          <div class="flex items-center justify-between mb-5">
+            <div class="eyebrow text-brass-300">Stay with us</div>
+            <div class="price-tag text-cream-100/70 text-sm">from <span class="text-cream-100 font-medium">£150</span> / short break</div>
+          </div>
+          <h3 class="font-display text-3xl lg:text-4xl">Lodge Holidays</h3>
+          <p class="mt-4 text-cream-100/75 leading-relaxed">Contemporary interiors, private decking, smart TVs and high-speed WiFi — with views over Dinckley Brook and the Trough of Bowland. Slow down. Switch off. Stay a while.</p>
+          <ul class="mt-7 grid grid-cols-2 gap-x-4 gap-y-2 text-sm text-cream-100/80">
+            <li class="flex items-center gap-2"><span class="text-brass-300">—</span> King-sized master</li>
+            <li class="flex items-center gap-2"><span class="text-brass-300">—</span> Twin second bedroom</li>
+            <li class="flex items-center gap-2"><span class="text-brass-300">—</span> En-suite + family bath</li>
+            <li class="flex items-center gap-2"><span class="text-brass-300">—</span> Welcome pack on arrival</li>
+          </ul>
+          <a href="bookings.html" class="mt-8 inline-flex items-center gap-2 text-brass-300 hover:text-brass-400 group/link">
+            Book a break
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" class="transition-transform group-hover/link:translate-x-1"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="group relative rounded-3xl overflow-hidden bg-forest-800/60 border border-cream-100/10 card-hover reveal">
+        <div class="aspect-[16/10] img-zoom relative">
+          <img src="img/lodge-outside.jpg" alt="Luxury lodge exterior at golden hour" class="w-full h-full object-cover"/>
+          <span class="absolute top-5 left-5 px-3 py-1 rounded-full bg-brass-500 text-cream-50 text-[11px] tracking-[.22em] uppercase">Now selling</span>
+        </div>
+        <div class="p-8 lg:p-10">
+          <div class="flex items-center justify-between mb-5">
+            <div class="eyebrow text-brass-300">Own a piece of it</div>
+            <div class="price-tag text-cream-100/70 text-sm">from <span class="text-cream-100 font-medium">£119,000</span></div>
+          </div>
+          <h3 class="font-display text-3xl lg:text-4xl">Lodges for Sale</h3>
+          <p class="mt-4 text-cream-100/75 leading-relaxed">A 12-month holiday licence — 365 days a year, every year — paired with a 50-year site licence. Tranquil, landscaped, and rare in a setting this peaceful.</p>
+          <ul class="mt-7 grid grid-cols-2 gap-x-4 gap-y-2 text-sm text-cream-100/80">
+            <li class="flex items-center gap-2"><span class="text-brass-300">—</span> Bespoke specifications</li>
+            <li class="flex items-center gap-2"><span class="text-brass-300">—</span> 365-day holiday licence</li>
+            <li class="flex items-center gap-2"><span class="text-brass-300">—</span> 50-year site licence</li>
+            <li class="flex items-center gap-2"><span class="text-brass-300">—</span> 12 months’ free fees ’25</li>
+          </ul>
+          <a href="phase-2-1.html" class="mt-8 inline-flex items-center gap-2 text-brass-300 hover:text-brass-400 group/link">
+            Discover ownership
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" class="transition-transform group-hover/link:translate-x-1"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- DINCKLEY BROOK VIEW -->
+<section class="py-24 lg:py-32 bg-cream-50 relative">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-12 gap-12 items-center">
+    <div class="lg:col-span-7 relative reveal">
+      <div class="relative rounded-3xl overflow-hidden shadow-soft img-zoom">
+        <img src="img/lodge-deck.jpg" alt="Show lodge with private decking overlooking the valley" class="w-full h-[520px] object-cover"/>
+      </div>
+      <div class="hidden md:block absolute -bottom-10 -right-6 rounded-3xl overflow-hidden shadow-soft img-zoom w-64 h-64 ring-4 ring-cream-50">
+        <img src="img/viaduct.jpg" alt="View from a lodge window over the fells" class="w-full h-full object-cover"/>
+      </div>
+      <div class="hidden md:block absolute -top-8 -left-8 bg-forest-700 text-cream-100 rounded-2xl px-5 py-4 shadow-soft">
+        <div class="eyebrow text-brass-300">From</div>
+        <div class="font-display text-3xl mt-1 price-tag">£199,000</div>
+        <div class="text-xs text-cream-100/75 mt-1">12 months’ fees free in 2025</div>
+      </div>
+    </div>
+    <div class="lg:col-span-5 reveal">
+      <div class="eyebrow text-brass-600 mb-5">Now selling — Phase 2</div>
+      <h2 class="font-display text-4xl sm:text-5xl lg:text-[56px] leading-[1.02] text-balance text-ink-900">
+        Dinckley<br/><em class="italic text-forest-700">Brook View</em>.
+      </h2>
+      <p class="mt-7 text-lg text-ink-700 leading-relaxed">
+        Be among the first to own a lodge in our new development — a small collection of plots above the meandering Dinckley Brook, with uninterrupted views west across the Trough of Bowland.
+      </p>
+      <div class="mt-8 grid grid-cols-2 gap-3">
+        <div class="ring-stat rounded-2xl p-5 bg-white/60">
+          <div class="font-display text-3xl text-forest-700">12</div>
+          <div class="text-sm text-ink-500 mt-1">Month holiday licence</div>
+        </div>
+        <div class="ring-stat rounded-2xl p-5 bg-white/60">
+          <div class="font-display text-3xl text-forest-700">50</div>
+          <div class="text-sm text-ink-500 mt-1">Year site tenure</div>
+        </div>
+        <div class="ring-stat rounded-2xl p-5 bg-white/60">
+          <div class="font-display text-3xl text-forest-700">£3,255</div>
+          <div class="text-sm text-ink-500 mt-1">Free site fees, ’25</div>
+        </div>
+        <div class="ring-stat rounded-2xl p-5 bg-white/60">
+          <div class="font-display text-3xl text-forest-700">365</div>
+          <div class="text-sm text-ink-500 mt-1">Days a year, yours</div>
+        </div>
+      </div>
+      <div class="mt-9 flex flex-wrap gap-3">
+        <a href="phase-2-1.html" class="btn btn-primary">Discover Lodge Ownership</a>
+        <a href="contact.html" class="btn btn-ghost">Arrange a Viewing</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE -->
+<section class="py-24 lg:py-32 bg-cream-100">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+    <div class="grid lg:grid-cols-12 gap-8 items-end mb-14 reveal">
+      <div class="lg:col-span-7">
+        <div class="eyebrow text-brass-600 mb-5">Why Ribble Valley View</div>
+        <h2 class="font-display text-4xl sm:text-5xl lg:text-6xl leading-[1.02] text-balance text-ink-900">
+          Considered details. <em class="italic text-forest-700">Quiet&nbsp;luxury</em>.
+        </h2>
+      </div>
+      <div class="lg:col-span-5 text-ink-700 leading-relaxed lg:pl-8">
+        A handful of touches you’ll notice the moment you arrive — the kind of standards a family-run park can quietly insist on.
+      </div>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="rounded-3xl bg-white/70 backdrop-blur p-7 border border-ink-900/5 card-hover reveal">
+        <div class="w-12 h-12 rounded-2xl bg-forest-700 text-cream-100 flex items-center justify-center mb-5">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V10l9-7 9 7v11"/><path d="M9 21v-7h6v7"/></svg>
+        </div>
+        <h3 class="font-display text-2xl text-ink-900">Brand-new luxury lodges</h3>
+        <p class="mt-3 text-ink-500">Hand-picked timber-clad designs with private decking and front-row views over Dinckley Brook.</p>
+      </div>
+      <div class="rounded-3xl bg-white/70 backdrop-blur p-7 border border-ink-900/5 card-hover reveal">
+        <div class="w-12 h-12 rounded-2xl bg-forest-700 text-cream-100 flex items-center justify-center mb-5">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="13" rx="2"/><path d="M8 7V4h8v3"/><path d="M2 13h20"/></svg>
+        </div>
+        <h3 class="font-display text-2xl text-ink-900">Smart TVs &amp; fast WiFi</h3>
+        <p class="mt-3 text-ink-500">All the comforts of home — and a connection that holds up when you choose to use it.</p>
+      </div>
+      <div class="rounded-3xl bg-white/70 backdrop-blur p-7 border border-ink-900/5 card-hover reveal">
+        <div class="w-12 h-12 rounded-2xl bg-forest-700 text-cream-100 flex items-center justify-center mb-5">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19c4-7 14-7 18 0"/><path d="M5 14c3-5 11-5 14 0"/><circle cx="12" cy="6" r="2"/></svg>
+        </div>
+        <h3 class="font-display text-2xl text-ink-900">Hills, fields &amp; brookside</h3>
+        <p class="mt-3 text-ink-500">Open views and footpaths that begin where the decking ends — the Ribble Way is on the doorstep.</p>
+      </div>
+      <div class="rounded-3xl bg-white/70 backdrop-blur p-7 border border-ink-900/5 card-hover reveal">
+        <div class="w-12 h-12 rounded-2xl bg-forest-700 text-cream-100 flex items-center justify-center mb-5">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V11l4-3h8l4 3v10"/><path d="M9 21v-6h6v6"/><path d="M12 8V4"/></svg>
+        </div>
+        <h3 class="font-display text-2xl text-ink-900">Farm-fresh welcome pack</h3>
+        <p class="mt-3 text-ink-500">Fresh milk and eggs from the family farm waiting in the fridge on arrival.</p>
+      </div>
+      <div class="rounded-3xl bg-white/70 backdrop-blur p-7 border border-ink-900/5 card-hover reveal">
+        <div class="w-12 h-12 rounded-2xl bg-forest-700 text-cream-100 flex items-center justify-center mb-5">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 12c1-3 5-3 6 0"/><circle cx="9.5" cy="10.5" r=".7" fill="currentColor"/><circle cx="14.5" cy="10.5" r=".7" fill="currentColor"/></svg>
+        </div>
+        <h3 class="font-display text-2xl text-ink-900">Dog-friendly always</h3>
+        <p class="mt-3 text-ink-500">Stays and ownership both welcome four-legged friends — they tend to love it more than anyone.</p>
+      </div>
+      <div class="rounded-3xl bg-forest-700 text-cream-100 p-7 card-hover reveal flex flex-col justify-between">
+        <div>
+          <div class="eyebrow text-brass-300 mb-4">Location</div>
+          <h3 class="font-display text-2xl">Bowland, Clitheroe &amp; the Ribble Way at your door</h3>
+        </div>
+        <a class="mt-6 inline-flex items-center gap-2 text-brass-300 hover:text-brass-400" href="out-and-about.html">Explore the valley
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="py-24 lg:py-32 bg-cream-50">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+    <div class="flex items-end justify-between gap-6 mb-12 reveal">
+      <div>
+        <div class="eyebrow text-brass-600 mb-5">Around the park</div>
+        <h2 class="font-display text-4xl sm:text-5xl lg:text-6xl text-balance text-ink-900">A look around <em class="italic text-forest-700">Lazy Days</em>.</h2>
+      </div>
+      <a class="link-arrow hidden sm:inline-flex" href="bookings.html">See all lodges
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+      </a>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+      <div class="aspect-[3/4] rounded-3xl overflow-hidden img-zoom"><img src="img/lodge-lounge.jpg" alt="Lodge living area" class="w-full h-full object-cover"/></div>
+      <div class="aspect-[3/4] rounded-3xl overflow-hidden img-zoom md:translate-y-8"><img src="img/lodge-bedroom.jpg" alt="King-sized bedroom" class="w-full h-full object-cover"/></div>
+      <div class="aspect-[3/4] rounded-3xl overflow-hidden img-zoom"><img src="img/lodge-lounge-2.jpg" alt="Fully fitted kitchen" class="w-full h-full object-cover"/></div>
+      <div class="aspect-[3/4] rounded-3xl overflow-hidden img-zoom md:translate-y-8"><img src="img/lodge-bathroom.jpg" alt="Family bathroom" class="w-full h-full object-cover"/></div>
+      <div class="aspect-[3/4] rounded-3xl overflow-hidden img-zoom"><img src="img/lodge-deck.jpg" alt="Morning coffee on the deck" class="w-full h-full object-cover"/></div>
+      <div class="aspect-[3/4] rounded-3xl overflow-hidden img-zoom md:translate-y-8"><img src="img/viaduct.jpg" alt="Window view across the fells" class="w-full h-full object-cover"/></div>
+      <div class="aspect-[3/4] rounded-3xl overflow-hidden img-zoom"><img src="img/park-3.jpg" alt="Footpath into the woodland" class="w-full h-full object-cover"/></div>
+      <div class="aspect-[3/4] rounded-3xl overflow-hidden img-zoom md:translate-y-8"><img src="img/park-4.jpg" alt="Dog enjoying the trails" class="w-full h-full object-cover"/></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="py-24 lg:py-32 bg-forest-900 text-cream-100 relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+    <div class="text-center max-w-2xl mx-auto mb-14 reveal">
+      <div class="eyebrow text-brass-300 mb-5">What our guests say</div>
+      <h2 class="font-display text-4xl sm:text-5xl lg:text-6xl text-balance">Kind words from <em class="italic text-brass-300">happy stays</em>.</h2>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <figure class="rounded-3xl border border-cream-100/10 p-8 bg-forest-800/40 reveal">
+        <svg class="text-brass-300 mb-5" width="34" height="26" viewBox="0 0 34 26" fill="currentColor"><path d="M0 26V14C0 6 5 1 13 0v6c-4 1-6 4-6 8h6v12H0Zm21 0V14c0-8 5-13 13-14v6c-4 1-6 4-6 8h6v12H21Z"/></svg>
+        <blockquote class="font-display text-2xl leading-snug">A boutique collection of timber-clad holiday homes overlooking the rolling fields of a working dairy farm — the ideal place to unwind, explore and indulge.</blockquote>
+        <figcaption class="mt-6 text-cream-100/70 text-sm tracking-wide">— Hoseasons</figcaption>
+      </figure>
+      <figure class="rounded-3xl border border-cream-100/10 p-8 bg-forest-800/40 reveal">
+        <svg class="text-brass-300 mb-5" width="34" height="26" viewBox="0 0 34 26" fill="currentColor"><path d="M0 26V14C0 6 5 1 13 0v6c-4 1-6 4-6 8h6v12H0Zm21 0V14c0-8 5-13 13-14v6c-4 1-6 4-6 8h6v12H21Z"/></svg>
+        <blockquote class="font-display text-2xl leading-snug">Beautiful lodges in a stunning part of the world — we all loved our stay. Our dog loved the walks and we’ll certainly be back again soon.</blockquote>
+        <figcaption class="mt-6 text-cream-100/70 text-sm tracking-wide">— The Weatheralls</figcaption>
+      </figure>
+      <figure class="rounded-3xl border border-cream-100/10 p-8 bg-forest-800/40 reveal">
+        <svg class="text-brass-300 mb-5" width="34" height="26" viewBox="0 0 34 26" fill="currentColor"><path d="M0 26V14C0 6 5 1 13 0v6c-4 1-6 4-6 8h6v12H0Zm21 0V14c0-8 5-13 13-14v6c-4 1-6 4-6 8h6v12H21Z"/></svg>
+        <blockquote class="font-display text-2xl leading-snug">We loved the tranquillity of the park and the high standard of the lodges. We’ll highly recommend the lodge and park to family and friends.</blockquote>
+        <figcaption class="mt-6 text-cream-100/70 text-sm tracking-wide">— S &amp; L</figcaption>
+      </figure>
+    </div>
+    <div class="text-center mt-12">
+      <a class="btn btn-ghost-light" href="reviews.html">Read more reviews</a>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section class="py-24 lg:py-32 bg-cream-50">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-12 gap-12 items-center">
+    <div class="lg:col-span-5 reveal">
+      <div class="eyebrow text-brass-600 mb-5">The setting</div>
+      <h2 class="font-display text-4xl sm:text-5xl lg:text-6xl leading-[1.02] text-balance text-ink-900">
+        Old Langho. <br/><em class="italic text-forest-700">The&nbsp;Switzerland</em><br/> of England.
+      </h2>
+      <p class="mt-7 text-lg text-ink-700 leading-relaxed">
+        Tucked between Whalley and Clitheroe in the Forest of Bowland AONB. Walk in the footsteps of the Pendle witches, cycle a Tour of Britain stage, or follow the Ribble Way straight from the park.
+      </p>
+      <dl class="mt-8 divide-y divide-ink-900/10 border-y border-ink-900/10">
+        <div class="flex justify-between py-3"><dt class="text-ink-500 text-sm">Clitheroe</dt><dd class="price-tag text-ink-900">8 min drive</dd></div>
+        <div class="flex justify-between py-3"><dt class="text-ink-500 text-sm">Forest of Bowland</dt><dd class="price-tag text-ink-900">12 min</dd></div>
+        <div class="flex justify-between py-3"><dt class="text-ink-500 text-sm">Manchester</dt><dd class="price-tag text-ink-900">45 min</dd></div>
+        <div class="flex justify-between py-3"><dt class="text-ink-500 text-sm">Yorkshire Dales</dt><dd class="price-tag text-ink-900">40 min</dd></div>
+      </dl>
+      <a href="out-and-about.html" class="mt-9 inline-flex link-arrow">Plan your days out
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+      </a>
+    </div>
+    <div class="lg:col-span-7 reveal">
+      <div class="relative rounded-3xl overflow-hidden shadow-soft img-zoom">
+        <img src="img/viaduct.jpg" alt="Sunset over the Forest of Bowland" class="w-full h-[560px] object-cover"/>
+        <div class="absolute left-6 bottom-6 right-6 rounded-2xl bg-cream-50/85 backdrop-blur p-5 flex items-center justify-between gap-4">
+          <div>
+            <div class="eyebrow text-brass-600">Find us</div>
+            <div class="font-display text-xl text-ink-900 mt-1">Ribble Valley View, Old Langho Road, BB6 8AW</div>
+          </div>
+          <a href="https://maps.google.com/?q=Ribble+Valley+View+Old+Langho+BB6+8AW" target="_blank" rel="noopener" class="btn btn-primary text-sm">Open map</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="py-24 lg:py-32 bg-cream-100">
+  <div class="max-w-4xl mx-auto px-6 lg:px-10">
+    <div class="text-center mb-12 reveal">
+      <div class="eyebrow text-brass-600 mb-5">Good to know</div>
+      <h2 class="font-display text-4xl sm:text-5xl text-balance text-ink-900">Questions, gently answered.</h2>
+    </div>
+    <div class="space-y-3">
+      <details class="group rounded-2xl bg-white/70 border border-ink-900/5 p-6 reveal" open>
+        <summary class="flex items-center justify-between gap-6">
+          <span class="font-display text-xl text-ink-900">What does a 12-month holiday licence mean?</span>
+          <span class="chev w-9 h-9 rounded-full bg-forest-700 text-cream-100 flex items-center justify-center transition-transform"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg></span>
+        </summary>
+        <p class="mt-4 text-ink-500 leading-relaxed">Owners can enjoy their lodge 365 days a year — though it remains a holiday home, not a primary residence. Combined with our 50-year site licence, ownership offers genuine flexibility.</p>
+      </details>
+      <details class="group rounded-2xl bg-white/70 border border-ink-900/5 p-6 reveal">
+        <summary class="flex items-center justify-between gap-6">
+          <span class="font-display text-xl text-ink-900">Are dogs welcome?</span>
+          <span class="chev w-9 h-9 rounded-full bg-forest-700 text-cream-100 flex items-center justify-center transition-transform"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg></span>
+        </summary>
+        <p class="mt-4 text-ink-500 leading-relaxed">Always. Most of our lodges are dog-friendly for both stays and ownership — and the footpaths around the farm were practically designed for them.</p>
+      </details>
+      <details class="group rounded-2xl bg-white/70 border border-ink-900/5 p-6 reveal">
+        <summary class="flex items-center justify-between gap-6">
+          <span class="font-display text-xl text-ink-900">How short can a break be?</span>
+          <span class="chev w-9 h-9 rounded-full bg-forest-700 text-cream-100 flex items-center justify-center transition-transform"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg></span>
+        </summary>
+        <p class="mt-4 text-ink-500 leading-relaxed">Three-night weekends (Fri–Mon) and four-night midweek (Mon–Fri) — or stay the full week, Fri–Fri. Short breaks from £150, weekly from £260.</p>
+      </details>
+      <details class="group rounded-2xl bg-white/70 border border-ink-900/5 p-6 reveal">
+        <summary class="flex items-center justify-between gap-6">
+          <span class="font-display text-xl text-ink-900">Can we view the show lodges?</span>
+          <span class="chev w-9 h-9 rounded-full bg-forest-700 text-cream-100 flex items-center justify-center transition-transform"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg></span>
+        </summary>
+        <p class="mt-4 text-ink-500 leading-relaxed">Yes — by private appointment. We’ll show you around the park, the plots and the show lodges. Get in touch and we’ll book you in.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section class="relative">
+  <div class="absolute inset-0">
+    <img src="img/aerial.jpg" alt="" class="w-full h-full object-cover"/>
+    <div class="absolute inset-0 bg-forest-950/70"></div>
+  </div>
+  <div class="relative max-w-7xl mx-auto px-6 lg:px-10 py-24 lg:py-32 text-cream-100 text-center reveal">
+    <div class="eyebrow text-brass-300 mb-5">Your countryside escape</div>
+    <h2 class="font-display text-4xl sm:text-5xl lg:text-7xl text-balance leading-[1.02]">Quiet hills are calling.<br/><em class="italic text-brass-300">Why not answer?</em></h2>
+    <div class="mt-10 flex flex-wrap items-center justify-center gap-3">
+      <a href="bookings.html" class="btn btn-gold">Book a Break</a>
+      <a href="contact.html" class="btn btn-ghost-light">Talk to the family</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-forest-950 text-cream-100/85">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 py-20 grid lg:grid-cols-12 gap-12">
+    <div class="lg:col-span-5">
+      <a href="index.html" class="inline-flex items-center gap-3">
+        <span class="w-10 h-10 rounded-full bg-cream-100 text-forest-900 flex items-center justify-center font-display text-xl">R</span>
+        <span>
+          <span class="block font-display text-2xl text-cream-100">Ribble Valley View</span>
+          <span class="block eyebrow text-brass-300 mt-1">Luxury Lodge Park</span>
+        </span>
+      </a>
+      <p class="mt-6 max-w-md leading-relaxed text-cream-100/70">A peaceful luxury lodge park on a family-run dairy farm in the heart of the Lancashire countryside. Stay, explore, or make it your own.</p>
+      <div class="mt-8 flex items-center gap-3">
+        <a aria-label="Facebook" href="#" class="w-10 h-10 rounded-full border border-cream-100/15 flex items-center justify-center hover:bg-cream-100/10"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7c0-1 .3-2 2-2h2V1.2C16.5 1.1 15.4 1 14.2 1 11.6 1 10 2.6 10 5.4V10H7v4h3v8h3Z"/></svg></a>
+        <a aria-label="Instagram" href="#" class="w-10 h-10 rounded-full border border-cream-100/15 flex items-center justify-center hover:bg-cream-100/10"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a aria-label="Email" href="mailto:hello@ribblevalleyview.com" class="w-10 h-10 rounded-full border border-cream-100/15 flex items-center justify-center hover:bg-cream-100/10"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+      </div>
+    </div>
+    <div class="lg:col-span-2">
+      <div class="eyebrow text-brass-300 mb-5">Explore</div>
+      <ul class="space-y-3">
+        <li><a class="hover:text-cream-50" href="index.html">Home</a></li>
+        <li><a class="hover:text-cream-50" href="phase-2-1.html">Lodge Ownership</a></li>
+        <li><a class="hover:text-cream-50" href="bookings.html">Book a Break</a></li>
+        <li><a class="hover:text-cream-50" href="out-and-about.html">Out &amp; About</a></li>
+        <li><a class="hover:text-cream-50" href="reviews.html">Reviews</a></li>
+      </ul>
+    </div>
+    <div class="lg:col-span-2">
+      <div class="eyebrow text-brass-300 mb-5">Visit</div>
+      <address class="not-italic leading-relaxed text-cream-100/70">
+        Ribble Valley View<br/>
+        Old Langho Road<br/>
+        Old Langho<br/>
+        Lancashire, BB6 8AW
+      </address>
+    </div>
+    <div class="lg:col-span-3">
+      <div class="eyebrow text-brass-300 mb-5">Get in touch</div>
+      <a class="block hover:text-cream-50" href="tel:08001814044">0800 181 4044</a>
+      <a class="block hover:text-cream-50 mt-2" href="mailto:hello@ribblevalleyview.com">hello@ribblevalleyview.com</a>
+      <a class="btn btn-gold mt-7" href="contact.html">Arrange a viewing</a>
+    </div>
+  </div>
+  <div class="border-t border-cream-100/10">
+    <div class="max-w-7xl mx-auto px-6 lg:px-10 py-6 flex flex-wrap items-center justify-between gap-3 text-xs text-cream-100/55">
+      <div>© <span id="yr">2025</span> Ribble Valley View. All rights reserved.</div>
+      <div class="flex items-center gap-6">
+        <a href="#" class="hover:text-cream-100">Privacy</a>
+        <a href="#" class="hover:text-cream-100">Cookies</a>
+        <span>Made in Lancashire</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  const navToggle = document.getElementById('navToggle');
+  const mobileNav = document.getElementById('mobileNav');
+  if (navToggle) navToggle.addEventListener('click', () => mobileNav.classList.toggle('hidden'));
+  let lastY = 0; const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY;
+    if (y > 200 && y > lastY) { nav.style.transform = 'translateY(-110%)'; }
+    else { nav.style.transform = 'translateY(0)'; }
+    lastY = y;
+  }, { passive: true });
+  const io = new IntersectionObserver((entries) => {
+    for (const e of entries) {
+      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    }
+  }, { rootMargin: '0px 0px -10% 0px', threshold: 0.05 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

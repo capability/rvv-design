@@ -1,0 +1,8 @@
+/contact      /contact.html      301
+/contact/     /contact.html      301
+/news         /out-and-about.html 301
+/news/*       /out-and-about.html 301
+/bookings     /bookings.html     301
+/phase-2-1    /phase-2-1.html    301
+/reviews      /reviews.html      301
+/out-and-about /out-and-about.html 301
